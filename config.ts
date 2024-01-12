@@ -3,7 +3,7 @@
 import { Site } from "./types";
 
 export const SITE: Site = {
-    siteUrl: "https:/www.bento.chrstnl.com/", // Always put "/" at the end of the URL
+    siteUrl: "https://www.bento.chrstnl.com/", // Always put "/" at the end of the URL
     author: "chrstnl",
     desc: "Welcome to Bent-o, A bento theme made for you!",
     title: "Bent-o - NextJS Template",

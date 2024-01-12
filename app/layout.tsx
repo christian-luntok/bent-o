@@ -20,6 +20,21 @@ export const metadata: Metadata = {
             url: "/apple-touch-icon.png"
         }
     },
+    openGraph: {
+        title: SITE.title || "Your Title",
+        description: SITE.desc || "Your company description.",
+        authors: SITE.author || "Your Author",
+        images: [
+            {
+                url: SITE.ogImage || "https://nextjs.org/og.png", // Must be an absolute URL
+                width: 1200,
+                height: 630
+            }
+        ]
+    },
+    alternates: {
+        canonical: SITE.siteUrl || "Canonical URL"
+    },
     manifest: "site.webmanifest",
     robots: {
         index: false,
