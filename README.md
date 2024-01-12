@@ -21,9 +21,7 @@
 -   Minimal styling (make it your own!)
 -   Accessible, semantic HTML markup
 -   Blazingly Fast
--   100/100 Lighthouse performance
 -   Responsive & SEO-friendly with canonical URLs, OpenGraph data and Meta tags.
--   Sitemap support
 -   Made with NextJS and TailwindCSS
 
 ---
