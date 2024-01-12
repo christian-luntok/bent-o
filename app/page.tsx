@@ -11,7 +11,7 @@ export default function Home() {
                             <h2 className="font-bold text-xl sm:text-3xl md:text-2xl mb-0">Pretty cool title...</h2>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                             <div className="inline-flex">
-                                <Button href="#" className="mt-4">
+                                <Button link="https://github.com/christian-luntok/bent-o" className="mt-4" target="_blank">
                                     Cool Button!
                                 </Button>
                             </div>

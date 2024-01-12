@@ -27,7 +27,7 @@ export const Footer = () => {
                                 </a>
                             </h1>
                             <p className="text-base">Click download to jazz it up with your style! 🚀.</p>
-                            <Button href="https://github.com/christian-luntok" className="mt-6 md:mt-8">
+                            <Button link="https://github.com/christian-luntok/bent-o" className="mt-6 md:mt-8" target="_blank">
                                 Download Bent-o
                             </Button>
                         </div>

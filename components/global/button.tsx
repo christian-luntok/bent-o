@@ -1,8 +1,8 @@
 import clsx from "clsx";
 import Link from "next/link";
-import type { ButtonProps } from "@/types";
+import type { ButtonProps, ButtonVariant } from "@/types";
 
-const ButtonVariant = {
+const ButtonVariant: ButtonVariant = {
     primary: "btn--primary",
     secondary: "btn--secondary",
     outline: "btn--outline",
@@ -11,13 +11,23 @@ const ButtonVariant = {
     text: "btn--text"
 };
 
-export const Button = ({ children, href = "", action = "", variant = "primary", className = "", type = "link" }: ButtonProps) => {
-    const Element = type === "button" ? "button" : Link;
-    const attributes = {
+export const Button: React.FC<ButtonProps> = ({ children, link = "", action = "button", variant = "primary", className = "", mode = "link", target = "_self" }: ButtonProps) => {
+    const Element = mode === "button" ? "button" : Link;
+
+    const commonAttributes = {
         role: "button",
-        ...(type === "button" && action ? { type: action } : {}),
-        ...(type === "link" && href ? { href: href } : {}),
+        href: link ? link : "#",
+        target: mode === "link" ? target : "_self",
         className: clsx("btn", ButtonVariant[variant], className)
+    };
+
+    const buttonAttributes = {
+        ...(mode === "button" && action ? { type: action } : {})
+    };
+
+    const attributes = {
+        ...commonAttributes,
+        ...(mode === "button" ? buttonAttributes : {})
     };
 
     return <Element {...attributes}>{children}</Element>;

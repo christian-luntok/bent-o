@@ -1,3 +1,5 @@
+import { HTMLAttributeAnchorTarget } from "react";
+
 export type Site = {
     siteUrl: string;
     author: string;
@@ -8,10 +10,21 @@ export type Site = {
 };
 
 export type ButtonProps = {
-    href?: string;
-    action?: string;
+    link?: string;
+    action?: "button" | "submit" | "reset" | undefined;
     variant?: string;
     className?: string;
-    type?: string | "button" | "link";
+    mode?: "button" | "link";
+    target?: HTMLAttributeAnchorTarget | undefined;
     children?: React.ReactNode;
+};
+
+export type ButtonVariant = {
+    primary: string;
+    secondary: string;
+    outline: string;
+    black: string;
+    white: string;
+    text: string;
+    [key: string]: string; // This is the index signature
 };

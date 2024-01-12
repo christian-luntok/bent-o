@@ -23,7 +23,9 @@ export const Header = () => {
                     </h1>
                 </div>
                 <div className="inline-flex items-center gap-2 list-none space-x-2">
-                    <Button href="https://github.com/christian-luntok">Download bent-o</Button>
+                    <Button link="https://github.com/christian-luntok/bent-o" target="_blank">
+                        Download bent-o
+                    </Button>
                 </div>
             </div>
         </header>
