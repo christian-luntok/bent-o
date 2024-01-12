@@ -8,8 +8,6 @@
 
 <p align="center">A bento style theme made for you!</p>
 
-<hr>
-
 ![Bento Mockup](/public/bent-o.png)
 
 #### DOCUMENTATION
@@ -18,7 +16,7 @@
 -   Created: 12 Jan 2024
 -   Last update: 12 Jan 2024
 
-## Key Features:
+#### Key Features:
 
 -   Minimal styling (make it your own!)
 -   Accessible, semantic HTML markup
