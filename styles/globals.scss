@@ -1,0 +1,28 @@
+/*
+
+=========================================================
+* CHRSTNL CSS Kit v1.0.0
+=========================================================
+
+* Copyright 2023 chrstnl.
+* Coded by chrstnl.
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+
+// Core CSS Reset/MISCS
+@import "core/misc";
+
+// Core Declarations
+@import "core/variables";
+
+// Core Layouts and Style Definitions
+@import "core/general";
+@import "core/typography";
+@import "core/utilities";
+
+// Core Plugins
+// @import "plugins/plugin-tailwind";

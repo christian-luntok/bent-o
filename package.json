@@ -1,0 +1,48 @@
+{
+    "name": "bent-o",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Bento layout template made for you!",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/christian-luntok/bent-o"
+    },
+    "keywords": [
+        "next",
+        "nextjs",
+        "react",
+        "reactjs",
+        "npx",
+        "tailwindcss",
+        "tailwind"
+    ],
+    "author": "chrstnl",
+    "homepage": "https://chrstnl.com/",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "react": "^18",
+        "react-dom": "^18",
+        "next": "14.0.4"
+    },
+    "devDependencies": {
+        "typescript": "^5",
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "autoprefixer": "^10.0.1",
+        "postcss": "^8",
+        "tailwindcss": "^3.3.0",
+        "@tailwindcss/typography": "^0.5.10",
+        "eslint": "^8",
+        "eslint-config-next": "14.0.4",
+        "clsx": "^1.2.1",
+        "prettier": "^2.8.6",
+        "vitest": "^0.27.1",
+        "sass": "^1.57.1"
+    }
+}
