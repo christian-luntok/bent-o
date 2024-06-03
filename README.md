@@ -85,12 +85,6 @@ You can use free tools online such as https://realfavicongenerator.net/ to quick
 
 ---
 
-#### Feedback and Suggestions
-
-If you have any suggestions/feedback feel free to open an issue if you find bugs or want to request new features.
-
----
-
 #### Acknowledgements
 
 Images from https://shots.so/ and https://icons8.com/.
