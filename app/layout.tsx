@@ -38,10 +38,10 @@ export const metadata: Metadata = {
     manifest: "site.webmanifest",
     robots: {
         index: false,
-        follow: true,
+        follow: false,
         nocache: true,
         googleBot: {
-            index: true,
+            index: false,
             follow: false,
             noimageindex: true,
             "max-video-preview": -1,
